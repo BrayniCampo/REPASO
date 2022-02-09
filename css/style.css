@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(30,23,47);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul li {
+    display: inline;
+    list-style: none;
+    width: 20%;
+
+   
+
+}
+header ul{
+    display: flex;
+    width: 39%;
+    align-items: center;
+    margin-left: 15%;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.colores {
+    color: rgb(136, 133, 145);
+}
+
+button{
+    background: linear-gradient(to right, rgb(121,70,213), 
+    rgb(85,88,213), rgb(28,114,213));
+    color: white;
+    padding: 12px;
+    border: 145px;
+    border-radius: 5%;
+    width: 30%;
+}
+
+section{
+    display: flex;
+    flex-direction:row;
+}
+
+.morado{
+    background-color: rgb(46,37,80);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+}
+.morado h2{
+    font-size: 3.9rem;
+}
+.morado p{
+    font-size: 20px;
+}
+.hojas{
+    background-image: url(../images/hojasFondo.jfif) ;
+    background-size: cover;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.hojas img{
+    display: flex;
+    height: 50%;
+}
+
+.textos{
+    width: 60%;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 11%;
+    padding: 5px;
+    border: solid rgb(84, 77, 110) 3px;
+    border-radius: 5%;
+}
+.boton1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(249,49,147);
+    background: white;
+    border: solid white 2px;
+    width: 50%;
+    height: 70%;
+    border-radius: 5%;
+}
+
+.boton2{
+    background: none;
+    width: 45%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 2px;
+    border-radius: 5%;
+}
+.tercera{
+    background-color: rgb(241, 242, 247);
+    height: 140%;
+}
+
+.tercera h2{
+    text-align: center;
+}
+.tercer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 170px;
+}
+.imagen{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 5%;
+}
+.imagen img{
+    width: 76%;
+}
+
+.alpha{
+    width: 50%;
+    background-color: rgb(241, 242, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+
+}
+
+.alpha h2{
+    font-size: 2.5rem;
+}
+
+.titulo{
+    color: rgb(244, 20, 134);
+    font-size: 3.8rem;
+}
+
+.marketing{
+    color: rgb(230, 96, 166);
+}
+
+.scree{
+    color: rgb(194, 70, 134);
+}
+
+.lista li{
+    list-style: none;
+
+}
+
+.cuarta{
+    background-color: rgb(30,23,47);
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.blanco{
+    color: rgb(255,255,255);
+    font-size: 1.3rem;
+}
+
+.blanco1{
+    color: white;
+    font-size: 3.5rem;
+}
+.cajaTarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.cajaTarjetas ul li{
+    list-style: none;
+}
+
+.hojaRosa{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 16%;
+}
+
+.lite{
+    color: rgb(244,20,134);
+}
+.free{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajaNube{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 16%;
+}
+
+.cajaMaletin{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 16%;
+    padding-bottom: 1%;
+}
+
+.vinetas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
+.figuras{
+    margin-right: 8%;
+    
+}
+
+.tex{
+    font-size: 1.2rem;
+}
+
+
+.rosi{
+    color: rgb(244, 20, 134);
+    font-size: 1.3rem;
+   
+}
+.oraciones{
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+}
+.botonRosa{
+    width: 50%;
+    background: linear-gradient(to right, 
+    rgb(236,96,168), rgb(239,65,164), rgb(242,30,138));
+}
+
+.botonComun{
+    width: 50%;
+    background: rgb(46,37,80);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    gap: 10%;
+    font-size: 1.3rem;
+}
+
+footer img{
+    width: 18%;
+}
+
